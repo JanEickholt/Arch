@@ -1,0 +1,42 @@
+<application>
+  <component name="KotlinWizardDependencyVersionStore">
+    <option name="ideVersion" value="2023.2.4" />
+    <option name="versions">
+      <map>
+        <entry key="androidx.activity:activity-compose" value="1.7.2" />
+        <entry key="androidx.appcompat:appcompat" value="1.6.1" />
+        <entry key="androidx.compose.foundation:foundation" value="1.4.3" />
+        <entry key="androidx.compose.material:material" value="1.4.3" />
+        <entry key="androidx.compose.ui:ui" value="1.4.3" />
+        <entry key="androidx.compose.ui:ui-tooling" value="1.4.3" />
+        <entry key="androidx.compose.ui:ui-tooling-preview" value="1.4.3" />
+        <entry key="androidx.constraintlayout:constraintlayout" value="2.1.4" />
+        <entry key="com.google.android.material:material" value="1.9.0" />
+        <entry key="io.ktor:ktor-server-html-builder-jvm" value="2.3.2" />
+        <entry key="io.ktor:ktor-server-netty" value="2.3.2" />
+        <entry key="junit:junit" value="4.13.2" />
+        <entry key="kotlinjs.wrapper" value="pre.346" />
+        <entry key="org.jetbrains.kotlin-wrappers:kotlin-emotion" value="11.9.3" />
+        <entry key="org.jetbrains.kotlin-wrappers:kotlin-react" value="18.2.0" />
+        <entry key="org.jetbrains.kotlin-wrappers:kotlin-react-dom" value="18.2.0" />
+        <entry key="org.jetbrains.kotlin-wrappers:kotlin-react-redux" value="7.2.6" />
+        <entry key="org.jetbrains.kotlin-wrappers:kotlin-react-router-dom" value="6.3.0" />
+        <entry key="org.jetbrains.kotlin-wrappers:kotlin-redux" value="4.1.2" />
+        <entry key="org.jetbrains.kotlinx:kotlinx-html-jvm" value="0.7.2" />
+        <entry key="org.jetbrains.kotlinx:kotlinx-nodejs" value="0.0.7" />
+        <entry key="org.junit.jupiter:junit-jupiter-engine" value="5.10.0" />
+      </map>
+    </option>
+  </component>
+  <component name="KotlinWizardVersionStore">
+    <option name="composeCompilerExtension" value="1.4.3" />
+    <option name="failsafeVersion" value="2.22.2" />
+    <option name="foojayVersion" value="0.5.0" />
+    <option name="gradleAndroidVersion" value="8.1.0" />
+    <option name="ideVersion" value="2023.2.4" />
+    <option name="kotlinForComposeVersion" value="1.7.20" />
+    <option name="kotlinPluginVersion" value="1.9.0" />
+    <option name="minGradleFoojayVersion" value="7.6" />
+    <option name="surefireVersion" value="2.22.2" />
+  </component>
+</application>

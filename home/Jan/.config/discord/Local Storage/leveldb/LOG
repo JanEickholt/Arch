@@ -1,0 +1,6 @@
+2023/11/12-02:49:19.598 489 Reusing MANIFEST /home/Jan/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/11/12-02:49:19.599 489 Recovering log #236
+2023/11/12-02:49:19.599 489 Reusing old log /home/Jan/.config/discord/Local Storage/leveldb/000236.log 
+2023/11/12-02:52:35.274 4ff Level-0 table #240: started
+2023/11/12-02:52:35.312 4ff Level-0 table #240: 2656274 bytes OK
+2023/11/12-02:52:35.316 4ff Delete type=0 #236

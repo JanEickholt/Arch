@@ -1,0 +1,17 @@
+[ExtractDialog]
+1366x768 screen: Height=512
+1366x768 screen: Width=1910
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+1366x768 screen: Height=715
+1366x768 screen: Width=667
+1366x768 screen: XPosition=689
+1366x768 screen: YPosition=43
+State=AAAA/wAAAAD9AAAAAQAAAAEAAAC3AAACq/wCAAAAAfsAAAAWAGEAcgBrAF8AcwBpAGQAZQBiAGEAcgEAAAAgAAACqwAAAFcA///+AAAB3gAAAqsAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+eDP1=eDP1

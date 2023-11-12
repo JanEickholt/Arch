@@ -1,0 +1,77 @@
+<application>
+  <component name="JdkInstallerHistory">
+    <option name="installedItems">
+      <installed-jdk>
+        <option name="fullText" value="Oracle OpenJDK 21.0.1" />
+        <option name="installDir" value="$USER_HOME$/.jdks/openjdk-21.0.1" />
+        <option name="sha256" value="7e80146b2c3f719bf7f56992eb268ad466f8854d5d6ae11805784608e458343f" />
+        <option name="url" value="https://download.java.net/java/GA/jdk21.0.1/415e3f918a1f4062a0074a2794853d0d/12/GPL/openjdk-21.0.1_linux-x64_bin.tar.gz" />
+        <option name="versionText" value="21.0.1" />
+      </installed-jdk>
+    </option>
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="presentationModeIdeScale" value="1.75" />
+    <option name="overrideLafFontsWasMigrated" value="true" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "CWM_LOGGING_VERSION": "1",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "3",
+    "MarketplacePluginsSearchHistory": "copilot",
+    "NewProjectWizard.generateOnboardingTips": "true",
+    "NonModalCommitCustomization.IsApplied": "true",
+    "PluginConfigurable.selectionTab": "1",
+    "SettingsSearchHistory": "confirm ex\nzoom",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "bundled.plugins.list.saved.version": "IU-232.10203.10",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
+    "com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep": "Java",
+    "defaultJdkConfigured": "true",
+    "evlsprt3.232": "3",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "232.10203.10",
+    "fileTypeChangedCounter": "1",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "13.0",
+    "got.it.tooltip.copilot.inlayGotIt": "1",
+    "gotit.previous.run": "IU-232.10203.10",
+    "ide.memory.adjusted": "true",
+    "input.method.disabler.muted": "true",
+    "installed.kotlin.plugin.version": "232-1.9.0-IJ10203.10",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "migrate.android.sdk.path.to.roamable.storage": "false",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "onboarding.generation.number": "1",
+    "previousColorScheme": "_@user_Dark",
+    "project.wizard.group": "NPW.simple-project",
+    "registry.to.advanced.settings.migration.build": "IU-232.10203.10",
+    "tasks.pass.word.conversion.enforced": "true",
+    "ts.lib.d.ts.version": "5.1.3"
+  },
+  "keyToStringList": {
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector",
+      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+  <component name="ShownTips">{
+  &quot;shownTips&quot;: {
+    &quot;CommentCode&quot;: 1698748183685
+  },
+  &quot;proposedTips&quot;: {
+    &quot;CommentCode&quot;: 1698748182785
+  },
+  &quot;tipsOrderSeed&quot;: 1698748182456
+}</component>
+</application>

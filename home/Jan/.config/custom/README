@@ -1,0 +1,59 @@
+% --------------- TODO --------------- %
+firefox customize
+ublock
+treestyle
+sponsorblock
+dontcare cookies
+dark watch
+
+auto-connect to eduroam
+zsh
+
+ThePrimagen vids
+
+Projects
+RedditBot
+
+
+% --------------- Resolution  --------------- %
+The resolution seems scuffed / polybar off center
+arandr
+(maybe need to save and autoload config)
+
+~/.config/polybar/config.ini
+([bar/example] width + offset-x = 100%)
+
+
+% --------------- Microphone --------------- %
+pamixer --get-volume-human
+-> if "muted"
+pamixer --get-volume-human - u
+
+alsamixer
+
+% --------------- Sound --------------- %
+
+pavucontrol
+
+pacmd list-sources
+pacmd set-default-source INDEX
+
+% --------------- Colors --------------- %
+~/.config/polybar/config.ini
+~/.config/alacritty/alacritty.yml
+~/.config/rofi/colors/onedark.rasi
+
+% --------------- Internet  --------------- %
+
+sudo nmtui
+
+% --------------- Eduroam init --------------- %
+networkctl
+-> interface auslesen
+
+% --------------- Eduroam refresh --------------- %
+sudo su
+nvim /etc/wpa_supplicant/wpa_suplicant.conf
+wpa_supplicant -B -i INTERFACE -c /etc/wpa_supplicant/wpa_suplicant.conf
+
+
