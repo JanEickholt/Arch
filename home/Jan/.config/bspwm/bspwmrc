@@ -1,0 +1,76 @@
+#!/bin/bash
+#
+### MONITORS ###
+external_monitor=$(xrandr --query | grep 'HDMI1')
+
+if [[ $external_monitor = HDMI1\ connected* ]]; then
+  xrandr --output HDMI1 --auto --primary --output eDP1 --off
+  bspc monitor HDMI1 -d 1 2 3 4 5 6 7 8 9 10
+else
+  xrandr --output eDP1 --auto
+  bspc monitor eDP1 -d 1 2 3 4 5 6 7 8 9 10
+fi
+
+# BSPWM Configuration
+_bc() {
+  bspc config "$@"
+}
+
+# BSPWM Configuration
+_bc window_gap                       8
+_bc top_padding                      5
+_bc top_monocle_padding              0
+_bc border_width                     2
+_bc bottom_padding                   0
+_bc left_padding                     0
+_bc right_padding                    0
+_bc single_monocle                   false
+_bc click_to_focus                   false
+_bc split_ratio                      0.50
+_bc borderless_monocle               true
+_bc gapless_monocle                  true
+_bc focus_by_distance                true
+_bc paddingless_monocle              true
+_bc focus_follows_pointer            true
+_bc ignore_ewmh_focus                true
+_bc history_aware_focus              true
+_bc remove_disabled_monitors         true
+_bc pointer_modifier mod1
+_bc pointer_action1 move
+_bc pointer_action2 resize_side
+_bc pointer_action3 resize_corner
+
+# Colors
+rosepine_background="#3F3F3F"
+rosepine_foreground="#000000"
+rosepine_accent="#30302f"
+rosepine_active="#848483"
+rosepine_focused="#636362"
+rosepine_normal="#151513"
+_bc normal_border_color "$rosepine_normal"
+_bc focused_border_color "$rosepine_focused"
+_bc active_border_color "$rosepine_active"
+
+# Rules
+bspc rule -a mpv state=tiled
+bspc rule -a *:SPLASH state=floating
+bspc rule -a Zathura state=tiled
+bspc desktop -f 1
+
+# Application start on specific desktop
+bspc rule -a discord desktop=^10 state=tiled
+bspc rule -a Spotify desktop=^9 state=tiled
+bspc rule -a teamspeak3 desktop=^8 state=tiled
+bspc rule -a firebird-emu desktop=^4 state=tiled
+bspc rule -a firefox desktop=^3 state=tiled
+
+# Init-Daemons
+command -v sxhkd && sxhkd &
+command -v picom && picom &
+command -v dunst && dunst &
+command -v greenclip deamon && greenclip daemon &
+setxkbmap -option ctrl:nocaps &
+
+# Autostart
+command -v feh && ~/.fehbg &
+command -v polybar && polybar &
