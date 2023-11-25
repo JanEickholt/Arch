@@ -117,21 +117,21 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: JetBrainsMonoNL Nerd Font
+    family: JetBrainsMono NF
 
     # The `style` can be specified to pick a specific face.
     style: Regular
 
   # Bold font face
-  bold:
+  #bold:
     # Font family
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: JetBrainsMonoNL Nerd Font
+    #family: jetbrainsmono nerd font
 
       # The `style` can be specified to pick a specific face.
-    style: Bold
+      #style: Bold
 
   # Italic font face
   italic:
@@ -139,7 +139,7 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: JetBrainsMonoNL Nerd Font
+    family: jetbrainsmono nerd font
 
     # The `style` can be specified to pick a specific face.
     style: Italic
@@ -150,7 +150,7 @@ font:
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: JetBrainsMonoNL Nerd Font
+    family: jetbrainsmono nerd font
 
     # The `style` can be specified to pick a specific face.
     style: Bold Italic
@@ -162,7 +162,7 @@ font:
   # of as modifying the line spacing, and `offset.x` as modifying the letter
   # spacing.
   #offset:
-  #  x: 0
+  #  x:1
   #  y: 0
 
   # Glyph offset determines the locations of the glyphs within their cells with
