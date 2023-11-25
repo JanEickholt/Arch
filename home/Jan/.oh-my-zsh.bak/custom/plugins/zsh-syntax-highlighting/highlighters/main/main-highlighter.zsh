@@ -1,0 +1,1 @@
+/home/Jan/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh
