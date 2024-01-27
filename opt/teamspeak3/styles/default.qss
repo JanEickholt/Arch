@@ -1,0 +1,161 @@
+/*
+ * TeamSpeak 3 Default Qt StyleSheet
+ *
+ * Copyright (c) TeamSpeak Systems GmbH
+ *
+ * Global overrides for QPalette::ColorRole values:
+ * QPalette::Link = #1c82cc;
+ *
+ * Global overrides for specific highlight colors:
+ * CustomColor::ClientFriend    = #008000;
+ * CustomColor::ClientBlocked   = #ff0000;
+ * CustomColor::ClientRecording = #800000;
+ */
+
+/* Use this to change the application default font. By default we leave it up to Qt to decide which font to pick. */
+/*QWidget {
+	font-family: "Segoe UI";
+	font-size: 9pt;
+}*/
+
+QSplitter::handle#bookmarksLocalRemoteSplitter, QSplitter::handle#identitiesLocalRemoteSplitter, QSplitter::handle#profilesLocalRemoteSplitter, QSplitter::handle#whisperListsLocalRemoteSplitter {
+	margin: 1.5px;
+	background-position: center;
+	background-repeat: none;
+}
+
+QSplitter::handle::vertical#bookmarksLocalRemoteSplitter, QSplitter::handle::vertical#identitiesLocalRemoteSplitter, QSplitter::handle::vertical#profilesLocalRemoteSplitter, QSplitter::handle#whisperListsLocalRemoteSplitter {
+	background-image: url('styles:default/splitter.png');
+	height: 2px;
+}
+
+/*
+QSplitter::handle:horizontal
+	background-image: url('styles:default/splitter_vertical.png');
+	width: 2px;
+}
+*/
+
+QLabel#bookmarksBanner, QLabel#identitiesBanner, QLabel#accountLoginBanner, QLabel#accountCreateBanner {
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:24,
+	                            stop: 0    rgb( 80,  92, 120),
+								stop: 0.08 rgb(133, 147, 174),
+								stop: 0.32 rgb( 88, 107, 140),
+								stop: 1    rgb(111, 128, 170));
+	color: white;
+	padding-left: 6px;
+	font-weight: bold;
+	qproperty-minimumSize: 0px 32px;
+}
+
+QLabel#accountLoginBanner, QLabel#accountCreateBanner {
+	qproperty-minimumSize: 420px 32px;
+}
+
+QTextEdit#ChatLineEdit[helpTextVisible="true"]  {
+	color: #909090;
+}
+
+QTextEdit#ChatLineEdit[helpTextVisible="false"] {
+ color: normal;
+}
+
+QStatusBar QLabel {
+  padding: 0px 3px;
+  border: 0px;
+}
+
+QTextEdit#InfoFrame {
+     background-color: palette(base);
+     background-image: url('styles:default/logo-128x128.png');
+     background-repeat: none;
+     background-position: top right;
+     background-attachment: fixed;
+}
+
+QTextEdit#ChatTab {
+     background-color: palette(base);
+     background-image: url('styles:default/chatlog-128x96.png');
+     background-repeat: none;
+     background-position: bottom right;
+     background-attachment: fixed;
+}
+
+QListWidget#localIconsListWidget::item:selected, QListWidget#remoteIconsListWidget::item:selected {
+	border: 1px solid palette(mid);
+}
+
+QTreeView#ServerTreeView {
+	alternate-background-color: transparent;
+	qproperty-rootIsDecorated: false;
+}
+
+QLabel#OptionsHeadlineTitleLabel {
+	font: 18px 'TeamSpeak 2020';
+	color: black;
+}
+
+QLabel#OptionsHeadlineDescriptionLabel {
+	color: black;
+}
+
+QLabel#NewsLeftLabel {
+	padding-right: 6px;
+}
+
+QTableView#clientsTableView, QTableView#banTableView {
+	qproperty-alternatingRowColors: true;
+}
+
+QLabel#appNameLabel {
+	color: #364B85;
+	text-transform: lowercase;
+	font: 32px 'TeamSpeak 2020';
+	font-weight: bold;
+}
+
+QWidget#HeadlineLabel {
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop: 0 #819CBD, stop: 1 #CDD7E5);
+}
+
+/* Server integrations */
+
+com--teamspeak--ui--ServerIntegrationsWidget QWidget#ExistingServerIntegration {
+	background: #d6ecff;
+}
+
+com--teamspeak--ui--ServerIntegrationsWidget QWidget#AvailableServerIntegration {
+	background: #d6ecff;
+}
+
+com--teamspeak--ui--ServerIntegrationsWidget com--teamspeak--ui--IntegrationResponseWidget {
+	background: white;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 2px;
+}
+
+com--teamspeak--ui--ServerIntegrationsWidget com--teamspeak--ui--IntegrationBubble {
+	background: #d6ecff;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 2px;
+}
+
+com--teamspeak--ui--IntegrationBubbleEditable QComboBox#IntegrationBubbleEditableComboBox {
+	border: 2px groove #1179ce;
+	background: #d6ecff;
+	padding: 0px 9px 1px 9px;
+}
+
+com--teamspeak--ui--ServerIntegrationsWidget com--teamspeak--ui--ErrorIndicator {
+	background: red;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 2px;
+}
+
+com--teamspeak--ui--ErrorIndicator QLabel#IntegrationErrorIndicatorLabel {
+	font-weight: bold;
+	color: white;
+}
