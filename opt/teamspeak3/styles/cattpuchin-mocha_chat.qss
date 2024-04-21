@@ -30,14 +30,14 @@ p {
 }
 
 a {
-	color: #287BDE;
+	color: #89b4fa;
 	text-decoration: underline;
 }
 
 .TextMessage_UserLink,
 .TextMessage_ChannelLink,
 .TextMessage_ServerLink {
-	color: #CC7832;
+	color: #cda6f7;
 	text-decoration: none;
 	font-weight: bold;
 }
@@ -46,7 +46,7 @@ a {
 .TextMessage_ClientKicked .TextMessage_Text,
 .TextMessage_ClientBanned .TextMessage_Text,
 .TextMessage_ServerError .TextMessage_Text {
-	color: #FF6B68;
+	color: #008ba8;
 }
 
 .TextMessage_Time {

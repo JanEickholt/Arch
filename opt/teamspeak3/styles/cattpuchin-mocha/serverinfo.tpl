@@ -46,7 +46,7 @@
 		padding: 0px 1px 0px 8px;
 	}
 	.active {
-		color: #CC7832;
+		color: #cba6f7;
 		text-decoration: bold;
 	}
 	.inactive {
