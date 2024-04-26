@@ -119,18 +119,22 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
+
+[[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+export EDITOR="nvim"
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
 alias nv='nvim'
-alias snv='sudo nvim'
+alias snv='sudoedit'
 alias vim='nvim'
-alias svim='sudo nvim'
+alias svim='sudoedit'
 
 alias lsla='ls -la --color=auto'
 alias lsl='ls -l --color=auto'
@@ -138,5 +142,9 @@ alias cl='clear'
 alias cfg='cd ~/.config'
 alias dwn='cd ~/Downloads'
 alias doc='cd ~/Documents'
+alias po='poweroff'
 
+alias vencord='sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"'
+
+#neofetch | lolcat -f 
 neofetch
