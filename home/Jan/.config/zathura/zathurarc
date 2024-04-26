@@ -1,7 +1,7 @@
 ### Settings from original zathurarc ###
 set synctex true
 set synctex-editor-command "nvim --remote-silent +%{line} %{input}"
-set highlight-transparency .1
+set highlight-transparency 0.1
 set zoom-center "true"
 set selection-clipboard clipboard
 set render-loading "false"
@@ -69,8 +69,8 @@ set statusbar-fg '#cdd6f4'
 set statusbar-bg '#181825'
 
 # Highlighting parts of the document (e.g. show search results)
-set highlight-color '#45475a'
-set highlight-active-color '#45475a'
+set highlight-color rgba(69, 71, 90, 0.85)
+set highlight-color rgba(69, 71, 90, 0.85)
 
 # Represent light/dark colors in recoloring mode
 set recolor-lightcolor rgba(255,255,255,0)
