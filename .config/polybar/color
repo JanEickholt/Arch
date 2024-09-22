@@ -1,0 +1,7 @@
+[color]
+background = ${xrdb:background}
+foreground = ${xrdb:foreground}
+primary = ${xrdb:color1}
+icons = ${xrdb:foreground}
+arch_logo = ${xrdb:color4}
+seperators = ${xrdb:color8}
