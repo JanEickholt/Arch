@@ -1,0 +1,41 @@
+! Xresources color scheme
+! termianl, zathura, polybar, rofi, nvim
+*background: #080710 
+! files, polybar text & icons, neofetch dot
+*foreground: #EEEBE1
+! Black
+*.color0:  #3A393E
+! zathura highlight, rofi background alt (unused), polybar seperators
+*.color8:  #9C998F 
+! Red
+! excutables, bspswm normal, polybar highlight, rofi urgent
+*.color1:  #3E3752
+*.color9:  #423A5A
+! Green
+! bspwm normal, neofetch lower, neofetch icons, polibar secondary (unused), rofi active
+*.color2:  #463E66
+! rofi selected color
+*.color10: #4E4374
+! Yellow
+! strings, zathura notification, polybar tertiary (unused)
+*.color3:  #554B73
+*.color11: #615586
+! Blue
+! bspwm focused, directories, neofetch upper, neofetch text, polybar arch logo
+*.color4:  #65567C 
+*.color12: #766392
+! Magenta
+*.color5:  #775B81
+! image files, zathura error
+*.color13: #825F8D
+! Cyan
+! softlink
+*.color6:  #7A9AB3
+*.color14: #A1C1D4
+! White
+! zsh logo background
+*.color7:  #DEDACC
+*.color15: #DEDACC
+
+! after changing make sure to run
+! xrdb -merge ~/.Xresources && ~/.config/alacritty/update_alacritty.sh && ~/.config/zathura/update_zathura.sh && ~/.config/rofi/colors/update_rofi.sh && ~/.config/bspwm/update_bspwm.sh && ~/.config/polybar/launch.sh
