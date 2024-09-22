@@ -85,4 +85,4 @@ setxkbmap -option ctrl:nocaps &
 # Autostart
 command -v feh && ~/.fehbg &
 command -v ~/.config/polybar/launch.sh && ~/.config/polybar/launch.sh &
-command -v bg.sh && /bin/bg.sh ~/Videos/wallpaper.avi &  
+command -v bg.sh && /bin/bg.sh ~/wallpaper/wallpaper.avi &  
