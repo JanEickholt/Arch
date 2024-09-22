@@ -1,0 +1,80 @@
+### Settings from original zathurarc ###
+set synctex true
+set synctex-editor-command "nvim --remote-silent +%{line} %{input}"
+set highlight-transparency .1
+set zoom-center "true"
+set selection-clipboard clipboard
+set render-loading "false"
+set window-width 960
+set window-height 700
+map <Space> toggle_index
+map K zoom in
+map J zoom out
+map p print
+map k 5k
+map j 5k
+set render-loading true
+
+### zathura-xresources ###
+# Allow recolor
+set recolor 'true'
+
+# Don't allow original hue when recoloring
+set recolor-keephue 'false'
+
+# Don't keep original image colors while recoloring
+set recolor-reverse-video 'false'
+
+# Command line completion entries
+set completion-fg '#EEEBE1'
+set completion-bg '#080710'
+
+# Command line completion group elements
+set completion-group-fg '#65567C'
+set completion-group-bg '#080710'
+
+# Current command line completion element
+set completion-highlight-fg '#080710'
+set completion-highlight-bg '#EEEBE1'
+
+# Default foreground/background color
+set default-bg rgba(8,7,16,0.80)
+
+# Input bar
+set inputbar-fg '#EEEBE1'
+set inputbar-bg '#080710'
+
+# Notification
+set notification-fg '#EEEBE1'
+set notification-bg '#080710'
+
+# Error notification
+set notification-error-fg '#EEEBE1'
+set notification-error-bg '#775B81'
+
+# Warning notification
+set notification-warning-fg '#EEEBE1'
+set notification-warning-bg '#554B73'
+
+# Status bar
+set statusbar-fg '#EEEBE1'
+set statusbar-bg '#3A393E'
+
+# Highlighting parts of the document (e.g., show search results)
+set highlight-color rgba(101,86,124,0.50)
+
+# Represent light/dark colors in recoloring mode
+set recolor-lightcolor rgba(255,255,255,0)
+set recolor-darkcolor rgba(238,235,225,0.85)
+
+# 'Loading...' text
+set render-loading-fg '#EEEBE1'
+set render-loading-bg '#3A393E'
+
+# Index mode
+set index-fg '#EEEBE1'
+set index-bg '#3A393E'
+
+# Selected element in index mode
+set index-active-fg '#3A393E'
+set index-active-bg '#EEEBE1'
