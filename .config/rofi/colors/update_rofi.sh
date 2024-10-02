@@ -17,7 +17,7 @@ cat > "$output_file" << EOF
     background:     #$(get_color background)80;
     background-alt: #$(get_color color8)80;
     foreground:     #$(get_color foreground)FF;
-    selected:       #$(get_color color10)80;
+    selected:       #$(get_color color4)80;
     active:         #$(get_color color2)80;
     urgent:         #$(get_color color1)FF;
 }

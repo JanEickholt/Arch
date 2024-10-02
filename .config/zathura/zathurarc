@@ -26,55 +26,55 @@ set recolor-keephue 'false'
 set recolor-reverse-video 'false'
 
 # Command line completion entries
-set completion-fg '#EEEBE1'
-set completion-bg '#080710'
+set completion-fg '#F9FDFF'
+set completion-bg '#111010'
 
 # Command line completion group elements
-set completion-group-fg '#65567C'
-set completion-group-bg '#080710'
+set completion-group-fg '#8C605F'
+set completion-group-bg '#111010'
 
 # Current command line completion element
-set completion-highlight-fg '#080710'
-set completion-highlight-bg '#EEEBE1'
+set completion-highlight-fg '#111010'
+set completion-highlight-bg '#F9FDFF'
 
 # Default foreground/background color
-set default-bg rgba(8,7,16,0.80)
+set default-bg rgba(17,16,16,0.80)
 
 # Input bar
-set inputbar-fg '#EEEBE1'
-set inputbar-bg '#080710'
+set inputbar-fg '#F9FDFF'
+set inputbar-bg '#111010'
 
 # Notification
-set notification-fg '#EEEBE1'
-set notification-bg '#080710'
+set notification-fg '#F9FDFF'
+set notification-bg '#111010'
 
 # Error notification
-set notification-error-fg '#EEEBE1'
-set notification-error-bg '#775B81'
+set notification-error-fg '#F9FDFF'
+set notification-error-bg '#A88C2D'
 
 # Warning notification
-set notification-warning-fg '#EEEBE1'
-set notification-warning-bg '#554B73'
+set notification-warning-fg '#F9FDFF'
+set notification-warning-bg '#6D764B'
 
 # Status bar
-set statusbar-fg '#EEEBE1'
-set statusbar-bg '#3A393E'
+set statusbar-fg '#F9FDFF'
+set statusbar-bg '#3C3B3B'
 
 # Highlighting parts of the document (e.g., show search results)
-set highlight-color rgba(101,86,124,0.50)
+set highlight-color rgba(140,96,95,0.50)
 
 # Represent light/dark colors in recoloring mode
 set recolor-lightcolor rgba(255,255,255,0)
-set recolor-darkcolor rgba(238,235,225,0.85)
+set recolor-darkcolor rgba(249,253,255,0.85)
 
 # 'Loading...' text
-set render-loading-fg '#EEEBE1'
-set render-loading-bg '#3A393E'
+set render-loading-fg '#F9FDFF'
+set render-loading-bg '#3C3B3B'
 
 # Index mode
-set index-fg '#EEEBE1'
-set index-bg '#3A393E'
+set index-fg '#F9FDFF'
+set index-bg '#3C3B3B'
 
 # Selected element in index mode
-set index-active-fg '#3A393E'
-set index-active-bg '#EEEBE1'
+set index-active-fg '#3C3B3B'
+set index-active-bg '#F9FDFF'

@@ -57,9 +57,9 @@ color4=$(xrdb_color "*.color4")
 color1=$(xrdb_color "*.color1")
 
 # Apply the colors to bspwm
-_bc normal_border_color "$color1"
-_bc active_border_color "$color1"
-_bc focused_border_color "$color4"
+_bc normal_border_color "$color4"
+_bc active_border_color "$color4"
+_bc focused_border_color "$color1"
 
 # Rules
 bspc rule -a mpv state=tiled
