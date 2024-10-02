@@ -82,6 +82,9 @@ command -v dunst && dunst &
 command -v greenclip deamon && greenclip daemon &
 setxkbmap -option ctrl:nocaps &
 
+# GPU driver for animated wallpaper
+export VDPAU_DRIVER=va_gl
+
 # Autostart
 command -v feh && ~/.fehbg &
 command -v ~/.config/polybar/launch.sh && ~/.config/polybar/launch.sh &

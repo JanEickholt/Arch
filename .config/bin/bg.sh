@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 PIDFILE="/var/run/user/$UID/bg.pid"
@@ -9,11 +8,19 @@ _screen() {
     xwinwrap -ov -ni -g "$1" -- mpv --fullscreen\
         --no-stop-screensaver\
         --vo=gpu\
-        --dither-depth=8\
-        --loop-file --no-audio --no-osc --no-osd-bar -wid WID --no-input-default-bindings \
+        --hwdec=vdpau\
+        --dither-depth=0\
+        --loop-file\
+        --no-audio\
+        --no-osc\
+        --no-osd-bar\
+        -wid WID\
+        --no-input-default-bindings\
+        --cache=auto\
         "$2" &
     PIDs+=($!)
 }
+
 
 while read p; do
   [[ $(ps -p "$p" -o comm=) == "xwinwrap" ]] && kill -9 "$p";
