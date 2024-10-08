@@ -145,7 +145,7 @@ alias dwn='cd ~/Downloads'
 alias doc='cd ~/Documents'
 alias pro='cd ~/Projects'
 alias po='poweroff'
-alias rw='sudo grub-reboot 3 && reboot'
+alias rw='sudo grub-reboot 5 && reboot'
 
 alias vencord='sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"'
 
