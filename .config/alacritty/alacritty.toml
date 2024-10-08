@@ -1,26 +1,26 @@
 [colors.bright]
-black = "#A7AAAD"
-red = "#B34C31"
-green = "#566FB2"
-yellow = "#78844F"
-blue = "#AA706E"
-magenta = "#E0BB3C"
+black = "#23283d"
+red = "#C66262"
+green = "#FFC94D"
+yellow = "#1EDC62"
+blue = "#5C6EB1"
+magenta = "#593695"
 cyan = "#BEE8FF"
-white = "#EEF4F7"
+white = "#B9BBBE"
 
 [colors.normal]
-black = "#3C3B3B"
-red = "#954530"
-green = "#4C6094"
-yellow = "#6D764B"
-blue = "#8C605F"
-magenta = "#A88C2D"
+black = "#1e2233"
+red = "#D25050"
+green = "#FAA61A"
+yellow = "#43B581"
+blue = "#6E85D3"
+magenta = "#096DC0"
 cyan = "#8FAEBF"
-white = "#F9FDFF"
+white = "#F1F1F1"
 
 [colors.primary]
-background = "#111010"
-foreground = "#F9FDFF"
+background = "#1e2233"
+foreground = "#F1F1F1"
 
 [font.bold_italic]
 family = "JetBrains Mono Nerd Font"

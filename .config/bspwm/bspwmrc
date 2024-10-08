@@ -53,13 +53,27 @@ xrdb_color() {
 }
 
 # Extract the colors from the cached xrdb output
-color4=$(xrdb_color "*.color4")
+color0=$(xrdb_color "*.color0")
 color1=$(xrdb_color "*.color1")
+color2=$(xrdb_color "*.color2")
+color3=$(xrdb_color "*.color3")
+color4=$(xrdb_color "*.color4")
+color5=$(xrdb_color "*.color5")
+color6=$(xrdb_color "*.color6")
+color7=$(xrdb_color "*.color7")
+color8=$(xrdb_color "*.color8")
+color9=$(xrdb_color "*.color9")
+color10=$(xrdb_color "*.color10")
+color11=$(xrdb_color "*.color11")
+color12=$(xrdb_color "*.color12")
+color13=$(xrdb_color "*.color13")
+color14=$(xrdb_color "*.color14")
+color15=$(xrdb_color "*.color15")
 
 # Apply the colors to bspwm
 _bc normal_border_color "$color4"
 _bc active_border_color "$color4"
-_bc focused_border_color "$color1"
+_bc focused_border_color "$color6"
 
 # Rules
 bspc rule -a mpv state=tiled
