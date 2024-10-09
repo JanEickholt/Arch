@@ -147,6 +147,10 @@ alias pro='cd ~/Projects'
 alias po='poweroff'
 alias rw='sudo grub-reboot 5 && reboot'
 
+alias rm='rmtrash'
+alias rmdir='rmdirtrash'
+alias sudo='sudo '
+
 alias vencord='sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"'
 
 #neofetch | lolcat -f 
