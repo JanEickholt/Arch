@@ -127,6 +127,7 @@ source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export EDITOR="nvim"
+export MANPAGER="nvim +Man!"
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
